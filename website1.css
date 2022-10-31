@@ -1627,7 +1627,7 @@ main{
 	}
 }
 #footer{
-	height: 70px;
+	height: auto;
 	width: 100%;
 	float: left;
 	background: #e8582a;
@@ -1645,7 +1645,7 @@ main{
 }
 
 .footer_social{
-	height: 100%;
+	height: auto;
 	width: auto;
 	float: left;
 	display: inline-block;
