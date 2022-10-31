@@ -700,7 +700,7 @@ main{
 	}
 	.work_box{
 		width: 100%;
-		height: 500px;
+		height: 450px;
 		float: left;
 		padding: 20px 20px 20px;
 		box-sizing: border-box;
@@ -888,10 +888,10 @@ main{
 	}
 	.team_box{
 		width: 95%;
-		height: 500px;
+		height: 450px;
 		float: left;
 		padding:15px;
-		margin-top: 20px;
+		margin-top: 50px;
 		box-sizing: border-box;
 
 	}
