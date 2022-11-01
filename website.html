@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gloxy</title>
+	<!-- <link rel="stylesheet" type="text/css" href="website.css"> -->
+	<link rel="stylesheet" type="text/css" href="website1.css">
+	<!-- font style -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/6a1b4f18d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<main>
+		<header id="menu1">
+			<div class="menu_logo" style="z-index: 11;position: relative;">
+				<img src="https://gloxy-react.envytheme.com/static/671ed043994006e4c4fb394a86e8e17f/18970/logo.png">
+			</div>
+			<ul class="menu_support">
+				<li><i class="fa fa-envelope"></i>support@gloxy.com</li>
+				<li><i class="fa fa-phone"></i>+2-325-555-0156</li>
+			</ul>
+			<ul class="menu_social">
+				<li><i class="fa fa-facebook"></i></li>
+				<li><i class="fa fa-twitter"></i></li>
+				<li><i class="fa fa-google-plus"></i></li>
+				<li><i class="fa fa-linkedin"></i></li>
+			</ul>
+		</header>
+			<div class="menu2" id="menu"style="position:sticky; top: 0px;">
+				<div class="logo">
+					<img src="https://gloxy-react.envytheme.com/static/f23bc873f6cc12f4ebb3c51e1d61f8af/e223a/logo2.png">
+				</div>
+				<div class="menu2_options">
+					<ul>
+						<li class="active"><a href="#menu1">HOME</a></li>
+						<li><a href="#services" >SERVICES</a></li>
+						<li><a href="#works">WORKS</a></li>
+						<li><a href="#about_us">ABOUT</a></li>
+						<li><a href="#team">TEAM</a></li>
+						<li><a href="#pricing">PRICING</a></li>
+						<li><a href="#blog">BLOG</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+						<li style="background:transparent;"><a href="website.html"><i class="fa fa-search"></i></a></li>
+					</ul>
+				</div>
+				<button  onclick="show()"><i class="fa fa-bars" style="font-size: 22px;"></i></button>
+
+				<div  id="demo" style="width: 100%;text-align: center;float: right; display: none;">
+					<ul style="list-style-type: none;">
+						<li><a class="text-white" href="#services" >SERVICES</a></li>
+						<li><a class="text-white" href="#works">WORKS</a></li>
+						<li><a class="text-white" href="#about_us">ABOUT</a></li>
+						<li><a class="text-white" href="#team">TEAM</a></li>
+						<li><a class="text-white" href="#pricing">PRICING</a></li>
+						<li><a class="text-white" href="#blog">BLOG</a></li>
+						<li><a class="text-white" href="#contact">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+			<script type="text/javascript">
+				status=0;
+				function show(){
+					if(status==0){
+						document.getElementById("demo").style.display="inline";
+						status=1;
+
+					}
+					else{
+						document.getElementById("demo").style.display="none";
+						status=0;
+					}
+					
+				}
+			</script>
+
+		<section id="home">
+			<div>
+				<h3>Clean & Creative</h3>
+				<h1>We Are an Expert</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<button>GET STARTED</button>
+			</div>
+		</section>
+
+		<section id="slide">
+			<div class="slide_box active_service">
+				<i class="fa fa-computer"></i>
+				<h1>Beautiful Designs</h1>
+				<p>We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
+			</div>
+			<div class="slide_box slideshow_1">
+				<i class="fa fa-gift"></i>
+				<h1>Unique Features</h1>
+				<p>We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
+			</div>
+			<div class="slide_box slideshow_2">
+				<i class="fa fa-user"></i>
+				<h1>Reliable Support</h1>
+				<p>We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
+			</div>
+		</section>
+
+		
+
+		<section id="services" class="section_area">
+				<div class="section_name">
+					<h3>Services</h3>
+					<h1>Services</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.</p>
+				</div>
+				<div class="service_menu">
+					<div class="service_box ">
+						<div class="animation_box">
+							<div>
+								
+							<i class="fa fa-brain"></i>
+							</div>
+						</div>
+						<h1>Creative Soutions</h1>
+						<p>We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
+					</div>
+					<div class="service_box">
+						<div class="animation_box">
+							<div>
+								
+							<i class="fa fa-bullseye"></i>
+							</div>
+						</div>
+						<h1>Excellent Features</h1>
+						<p>We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
+					</div>
+					<div class="service_box">
+						<div class="animation_box">
+							<div>
+								
+							<i class="fa fa-user"></i>
+							</div>
+						</div>
+						<h1>Friendly Support</h1>
+						<p>We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
+					</div>
+					<div class="service_box ">
+						<div class="animation_box">
+							<div>
+								
+							<i class="fa fa-chart-line"></i>
+							</div>
+						</div>
+						<h1>SEO & Advertising</h1>
+						<p>We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
+					</div>
+					<div class="service_box">
+						<div class="animation_box">
+							<div>
+								
+							<i class="fa fa-people-line"></i>
+							</div>
+						</div>
+						<h1>Marketing & Consulting</h1>
+						<p>We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
+					</div>
+					<div class="service_box">
+						<div class="animation_box">
+							<div>
+								
+							<i class="fa fa-laptop-code"></i>
+							</div>
+						</div>
+						<h1>Design & Development</h1>
+						<p>We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
+					</div>
+				</div>
+				<div class="purchase">
+					<div class="purchase_text">
+						<h1>We offer best in class service for your needs</h1>
+						<p>We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
+						<button>PURCHASE NOW</button>
+					</div>
+					<img src="https://gloxy-react.envytheme.com/static/ca7b86b3712d7856d7672387f1c6b1a3/70169/mac-pro.png">
+				</div>
+		</section>
+		<section id="works" class="section_area">
+				<div class="section_name">
+					<h3>Works</h3>
+					<h1>Our Works</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.</p>
+				</div>
+				<div class="work_menu">
+					<div class="work_box wb1">
+						<div class="work_overlay">
+							<h1>Work Details</h1>
+							<i class="fa fa-link"></i>
+						</div>
+					</div>
+					<div class="work_box wb2">
+						<div class="work_overlay">
+							<h1>Work Details</h1>
+							<i class="fa fa-link"></i>
+						</div>
+					</div>
+					<div class="work_box wb3">
+						<div class="work_overlay">
+							<h1>Work Details</h1>
+							<i class="fa fa-link"></i>
+						</div>
+					</div>
+					<div class="work_box wb4">
+						<div class="work_overlay">
+							<h1>Work Details</h1>
+							<i class="fa fa-link"></i>
+						</div>
+					</div>
+					<div class="work_box wb5">
+						<div class="work_overlay">
+							<h1>Work Details</h1>
+							<i class="fa fa-link"></i>
+						</div>
+					</div>
+					<div class="work_box wb6">
+						<div class="work_overlay">
+							<h1>Work Details</h1>
+							<i class="fa fa-link"></i>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section id="about_us" class="section_area">
+			<div class="section_name">
+					<h3>About</h3>
+					<h1>About Us</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.</p>
+			</div>
+			<div class="aboutus_contain">
+				<div class="about_text">
+					<h1>
+						Take your business to the next level
+
+					</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+					</p>
+				</div>
+				<div class="about_img">
+					<img src="https://gloxy-react.envytheme.com/static/1154f2cfaf53487b50efbec3a1a817d6/14b42/about-img.jpg">
+				</div>
+			</div>
+		</section>
+
+		<section id="team" class="section_area">
+			<div class="section_name">
+					<h3>Team</h3>
+					<h1>Our Team</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.</p>
+				</div>
+				<div class="team_menu">
+					<!-- <div class="team_scroll"> -->
+					<div class="team_box tb1">
+						<div class="team_overlay">
+							<h1>Davies</h1>
+							<span>QA Expert</span>
+							<ul>
+								<li><i class="fa fa-facebook"></i></li>
+
+								<li><i class="fa fa-linkedin"></i></li>
+
+								<li><i class="fa fa-twitter"></i></li>
+							</ul>
+						</div>
+					</div>
+					<div class="team_box tb2">
+						<div class="team_overlay">
+							<h1>Taylor</h1>
+							<span>Team Leader</span>
+							<ul>
+								<li><i class="fa fa-facebook"></i></li>
+
+								<li><i class="fa fa-linkedin"></i></li>
+
+								<li><i class="fa fa-twitter"></i></li>
+								
+							</ul>
+						</div>
+					</div>
+					<div class="team_box tb3">
+						<div class="team_overlay">
+							<h1>Thomas</h1>
+							<span>React Developer</span>
+							<ul>
+								<li><i class="fa fa-facebook"></i></li>
+
+								<li><i class="fa fa-linkedin"></i></li>
+
+								<li><i class="fa fa-twitter"></i></li>
+							</ul>
+						</div>
+					</div>
+					<!-- </div> -->
+				</div>
+				<div class="videos">
+					<div class="video_blur">
+						<!-- <img src=""> -->
+						<div style="display: flex;justify-content: center;">
+							<i class="fa fa-play"></i>
+						</div>
+						<div>
+							<h1>
+							Watch Intro Video
+						</h1>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum sagittis nulla, non vehicula mauris rutrum vitae. Sed non consequat dolor
+						</p>
+						</div>
+						<!-- <iframe class="video_overlay" width="100%" height="100%" src="https://www.youtube.com/embed/vr0qNXmkUJ8" title="YouTube video player" frameborder="0" ></iframe> -->
+					</div>
+				</div>
+		</section>
+		<section id="pricing" class="section_area">
+			<div class="section_name">
+					<h3>Pricing</h3>
+					<h1>Pricing</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.</p>
+			</div>
+			<div class="pricing_button">
+					<button style="background:#e8582a;color: white;">MONTHLY</button>
+					<button>YEARLY</button>
+				</div>
+
+			<div class="pricing_menu">
+				<div class="pricing_box">
+					<div class="upper_div">
+						<h3>BASIC</h3>
+						<h1>Free</h1>
+						<p>
+							Free of charge one standard listing active for 30 days
+						</p>	
+					</div>
+					<ul>
+						<li>Any Ware Access</li>
+						<li>1 GB Hosting</li>
+						<li>1 Unique Users</li>
+						<li>2 GB Capacity</li>
+						<li>Weekly Backups</li>
+						<li></li>
+						<li>
+							<button>PURCHASE NOW</button>
+						</li>
+					</ul>
+				</div>
+				<div class="pricing_box active_pricing">
+					<div class="upper_div">
+						<span>Featured</span>
+						<h3>Extended</h3>
+						<h1>$145</h1>
+						<p>
+							One time fee for one listing, highlighted in the search results
+						</p>	
+					</div>
+					<ul>
+						<li>Any Ware Access</li>
+						<li>2 GB Hosting</li>
+						<li>2 Unique Users</li>
+						<li>15 GB Capacity</li>
+						<li>Weekly Backups</li>
+						<li>15 Domain Names</li>
+						<li>Enhanced Security</li>
+						<li>
+							<button>PURCHASE NOW</button>
+						</li>
+					</ul>
+				</div>
+				<div class="pricing_box">
+					<div class="upper_div">
+						<h3>Professional</h3>
+						<h1>$555</h1>
+						<p>
+							Monthly subscription for unlimited listings and availability
+						</p>	
+					</div>
+					<ul>
+						<li>Any Ware Access</li>
+						<li>15 GB Hosting</li>
+						<li>2 Unique Users</li>
+						<li>15 GB Capacity</li>
+						<li>Weekly Backups</li>
+						<li>
+							<button>PURCHASE NOW</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="facts" class="section_area">
+			<div class="section_name">
+					<h3>Fun fact</h3>
+					<h1>Some Fun Facts</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.</p>
+			</div>
+				<div class="fact_menu">
+					<div class="fact_box ">
+						<i class="fa fa-hand-holding-dollar"></i>
+						<h1>140</h1>
+						<p>Clients Worked With</p>
+					</div>
+					<div class="fact_box">
+						<i class="fa fa-handshake"></i>
+						<h1>205</h1>
+						<p>Completed Projects</p>
+					</div>
+					<div class="fact_box">
+						<i class="fa fa-trophy"></i>
+						<h1>50</h1>
+						<p>Winng Awards</p>
+					</div>
+				</div>
+		</section>
+		<section class="quotes">
+			<i class="fa-solid fa-quote-left"></i>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam fermentum sagittis nulla, non vehicula mauris rutum vitae. Sed non consequat dolar. Cras in odio augue.
+			</p>
+			<div class="user">
+				<img src="https://i.pinimg.com/originals/43/e0/97/43e097cca1c33472e2c5e53cc9de43c1.jpg">
+				<h2>Stathum</h2>
+				<span>React Developer</span>
+			</div>
+		</section>
+
+		<section id="faq" class="section_area">
+			<div class="section_name">
+					<h3>faq</h3>
+					<h1>Frequently & Ask Questions</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.</p>
+			</div>
+			<div class="faq_box">
+				<div class="faq_img">
+					<h1>One More  Question?</h1>
+					<i class="fa-solid fa-share"></i>
+					<p>If you have more	questions, send us a message and we will answer you as you as soon as possible.</p>
+				</div>
+				<div class="faq_menu">
+					<details>
+						<summary>
+							How do I purchase an item?
+						</summary>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					</details>
+					<details>
+						<summary>
+							How to download your items?
+						</summary>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</details>
+					<details>
+						<summary>
+							View & download invoices?
+						</summary>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</details>
+					<details>
+						<summary>
+							What is an item support?
+						</summary>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</details>
+					<details>
+						<summary>
+							How to contact an author?
+						</summary>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</details>
+					<details>
+						<summary>
+							View and download invoices?
+						</summary>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</details>
+				</div>
+			</div>
+		</section>
+
+		<section id="partners" class="section_area">
+			<div class="section_name">
+					<h3>partners</h3>
+					<h1>Our Partners</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.</p>
+			</div>
+			<ul>
+				<li>
+					<img src="partners/download.png">
+				</li>
+				<li>
+					<img src="partners/download 2.png">
+				</li>
+				<li>
+					<img src="partners/download 3.png">
+				</li>
+				<li>
+					<img src="partners/download 4.png">
+				</li>
+			</ul>
+		</section>
+
+		<section id="blog" class="section_area">
+			<div class="section_name">
+					<h3>blog</h3>
+					<h1>Our Blog</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.</p>
+			</div>
+			<div class="blog_menu">
+				<div class="blog_box">
+					<img src="https://gloxy-react.envytheme.com/static/2db609e763de49660460d97f27596d5d/dee3b/blog-one.jpg">
+					<div class="blog_box_txt">
+						<span>
+							<i class="fa fa-user"></i>Admin
+						</span>
+						<span>
+							<i class="fa fa-calendar-days"></i>Oct 4, 2022
+						</span>
+						<h1>
+							14 ridiculously cool websites you never know.
+						</h1>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+						</p>
+						<button>Read More</button>
+					</div>
+				</div>
+
+				<div class="blog_box">
+					<img src="https://gloxy-react.envytheme.com/static/7b2578e5871d89284aab731c623c34dc/dee3b/blog-two.jpg">
+					<div class="blog_box_txt">
+						<span>
+							<i class="fa fa-user"></i>Admin
+						</span>
+						<span>
+							<i class="fa fa-calendar-days"></i>Oct 5, 2022
+						</span>
+						<h1>
+							Top 10 hot marketing trends you need.
+						</h1>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+						</p>
+						<button>Read More</button>
+					</div>
+				</div>
+
+				<div class="blog_box">
+					<img src="https://gloxy-react.envytheme.com/static/2ccaaa9f993f176ec08a02462bed2262/dee3b/blog-three.jpg">
+					<div class="blog_box_txt">
+						<span>
+							<i class="fa fa-user"></i>Admin
+						</span>
+						<span>
+							<i class="fa fa-calendar-days"></i>Oct 8, 2022
+						</span>
+						<h1>
+							10 reasons you need a digital marketing strategy.
+						</h1>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+						</p>
+						<button>Read More</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact" class="section_area">
+			<div class="section_name">
+					<h3>Contact</h3>
+					<h1>Our Contact</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.</p>
+			</div>
+			<div class="contact_menu">
+			<div class="contact_box">
+				<div class="contact_list">
+					<div class="contact_logo">
+						<i class="fa fa-location-dot"></i>
+					</div>
+					<div style="float: left	;">
+					<h1>Address</h1>
+					<p>2750 Quadra Street Victoria,<br> Canada</p>
+				</div>
+				</div>
+				<div class="contact_list">
+					<div class="contact_logo">
+						<i class="fa fa-envelope"></i>
+					</div>
+					<div style="float: left	;">
+					<h1>Email</h1>
+					<p>hello@gloxy.com</p>
+				</div>
+				</div>
+				<div class="contact_list">
+					<div class="contact_logo">
+						<i class="fa fa-phone"></i>
+					</div>
+					<div style="float: left	;">
+					<h1>Phone</h1>
+					<p>+1-325-555-0156</p>
+				</div>
+				</div>
+			</div>
+
+			<form>
+				<table  cellspacing="25px">
+					<tr>
+						<td>
+							<input type="text" placeholder="Name" name="">
+						</td>
+						<td>
+							<input type="email" placeholder="Email" name="">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" placeholder="Subject" name="">
+						</td>
+						<td>
+							<input type="text" placeholder="Phone" name="">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<textarea placeholder="Your message"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td  colspan="2">
+							<button>Submit</button>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		</section>
+		<a class="scrolltop" href="#menu1">
+			<i class="fa fa-angle-up"></i>
+		</a>
+		<footer id="footer">
+			<p class="footer_support">
+				© 2022 All Rights Reserved.
+			</p>
+			<div style="display: flex; justify-content: center; float: left;width: 100%;">
+			<ul class="footer_social">
+				<li class="follow_name" style="background: transparent;color: white;">Follow Us On:</li>
+				<li><i class="fa fa-facebook"></i></li>
+				<li><i class="fa fa-twitter"></i></li>
+				<li><i class="fa fa-google-plus"></i></li>
+				<li><i class="fa fa-linkedin"></i></li>
+			</ul>
+			</div>
+		</footer>
+	</main>
+</body>
+</html>
