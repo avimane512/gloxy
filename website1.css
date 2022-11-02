@@ -719,7 +719,7 @@ main{
 	}
 	.work_box{
 		width: 100%;
-		height: 430px;
+/* 		height: 430px; */
 		float: left;
 		padding: 20px 20px 20px;
 		box-sizing: border-box;
@@ -907,7 +907,7 @@ main{
 	}
 	.team_box{
 		width: 95%;
-		height: 430px;
+/* 		height: 430px; */
 		float: left;
 		padding:15px;
 		margin-top: 50px;
@@ -1727,7 +1727,7 @@ main{
     opacity: 1;
     filter: alpha(opacity=8000);
     position: fixed;
-    bottom: 75px;
+    bottom: 100px;
     right: 10px;
     font-size: 20px;
     background: #343331;
