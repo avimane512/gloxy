@@ -915,7 +915,7 @@ main{
 
 	}
 	.team_overlay {
-		margin-top: 320px;
+		margin-top: 250px;
 	}
 	.team_overlay ul{
 		
@@ -1727,7 +1727,7 @@ main{
     opacity: 1;
     filter: alpha(opacity=8000);
     position: fixed;
-    bottom: 100px;
+    bottom: 80px;
     right: 10px;
     font-size: 20px;
     background: #343331;
