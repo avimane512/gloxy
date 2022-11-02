@@ -897,7 +897,7 @@ main{
 }
 @media(max-width: 667px){
 	.team_menu{
-		height: 550px;
+		height: 500px;
 		width: 100%;
 		margin: 0px;
 		float: left;
@@ -915,7 +915,7 @@ main{
 
 	}
 	.team_overlay {
-		margin-top: 250px;
+		margin-top: 220px;
 	}
 	.team_overlay ul{
 		
