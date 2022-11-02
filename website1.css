@@ -915,7 +915,13 @@ main{
 
 	}
 	.team_overlay {
-		margin-top: 220px;
+		margin-top: 230px;
+	}
+	.tb1{
+		display: none;
+	}
+	.tb2{
+		display: none;
 	}
 	.team_overlay ul{
 		
@@ -1727,7 +1733,7 @@ main{
     opacity: 1;
     filter: alpha(opacity=8000);
     position: fixed;
-    bottom: 80px;
+    bottom: 70px;
     right: 10px;
     font-size: 20px;
     background: #343331;
